@@ -1,10 +1,10 @@
 <?php
-$name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+$name = $_POST['Name'];
+$visitor_email = $_POST['Email'];
+$subject = $_POST['Subject'];
+$message = $_POST['Message'];
 
-$email_form = "ataulkabirbd@gmail.com";
+$email_form = "admin@shakibbinkabir.me";
 $email_subject = "New Response on Your Site";
 $email_body = "User Name: $name.\n".
                 "User Email: $visitor_email.\n".
