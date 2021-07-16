@@ -951,6 +951,17 @@ portfolio section
 	color: var(--text-black-600);
 	text-transform: capitalize;
 }
+.portfolio-section .port-footer{
+	font-size: 15px;
+	color: var(--skin-color);
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	padding-top: 50px;
+}
+
 
 /*--------------------
 portfolio popup
