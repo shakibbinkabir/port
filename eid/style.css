@@ -1,0 +1,178 @@
+html, body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(145deg, rgba(47,164,104,1) 0%, rgba(33,98,164,1) 100%);
+}
+
+strong {
+  font-weight: bold;
+}
+
+.container-outer {
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    border-radius: 25px;
+    background-image: url(image.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 20px 2px rgba(0,0,0,0.75);
+
+  
+}
+.container {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  top: 40%;
+  left: 28%;
+}
+
+p {
+  color: #fff;
+}
+
+.main-text {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top p, .bottom p {
+  line-height: 1;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 72px;
+  letter-spacing: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+.top, .bottom {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+.bottom p {
+  bottom: 0px;
+}
+
+.top {
+  height: 32px;
+  animation-name: goUp;
+  
+}
+
+.bottom {
+  height: 41px;
+  animation-name: goDown;
+}
+
+.sub-text p {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-70%);
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+.date {
+  margin-top: 20px;
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+.date p {
+  position: absolute;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin: 0;
+  width: 100%;
+}
+@keyframes goUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-22px);
+  }
+}
+
+@keyframes goDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(22px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+footer {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  padding-right: 140px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  text-align: right;
+  bottom: 0;
+}
+
+footer::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+footer p {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+footer .right {
+  padding-right: 12px;
+}
