@@ -51,6 +51,9 @@ body{background-color:#dddddd;font: 14px/24px ; }
 html{background-color:#dddddd;font: 14px/24px ;overflow-x: hidden;}
 a{text-decoration:unset !important; color: unset !important;}
 .bn{font-family: 'SolaimanLipi', sans-serif;}
+.customfoot{font-family: 'SolaimanLipi', sans-serif;}
+.galshadow{box-shadow: 2px 2px 15px -2px rgba(0,0,0,0.75); border-radius: 25px;}
+.galshadow img{border-radius: 25px;}
 .xrow-bg-top{background-color:coral;height:3px;}
 .xrow-bg-bottom{background-color:#D5D5D5;height:5px;margin-bottom:30px;}
 .margin-top0{margin-top:0px !important;}
