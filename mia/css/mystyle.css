@@ -100,14 +100,14 @@ a{text-decoration:unset !important; color: unset !important;}
 nav{background-color:#01A858;border-color:#00569d;color:snow;}
 .navbar {margin-bottom: unset !important; background-color: rgba(1,57,30, .99);}
 .navbar li a:hover, .navbar a:hover, .navbar li a:active, .navbar a:active,
- .navbar li a:focus, .navbar a:focus {background-color: rgba(0,84,35, .99) !important;color: snow;text-shadow: 0px 0px 160px 1px rgba(0, 0, 0, .235);transition: .2s all;}
-nav li a{ color: snow !important;}
+ .navbar li a:focus, .navbar a:focus {background-color: rgba(0,84,35, .99) !important;color: snow;text-shadow: 0px 0px 160px 1px rgba(0, 0, 0, .235);transition: .2s all; border-radius: 25px;}
+.navbar-brand{ color: snow !important;  border: 3px solid #dddddd; border-radius: 25px;}
 .navbar span:hover { background-color: rgba(0,84,35, .99) !important; color: snow; text-shadow: 0px 0px 160px 1px rgba(0, 0, 0, .235); transition: .2s all;}
 .navbar-right{ margin-right: unset !important;}
 #header-nav {margin-bottom: unset !important;}
 .header-menu-nav {display: none;background-color: rgba(1,57,30, 1) !important;opacity: .1;border-top: 2px solid yellow;font-weight: bold;}
 .header-menu-nav-nav {display: none;background-color: rgba(3,167,88, 1) !important;opacity: .1;border-top: 2px solid yellow;font-weight: bold;position: absolute; margin-left: 200px; margin-top: -26px;}
-.header-menu-link {}
+.header-menu-link {color: snow !important;  border: 3px solid #dddddd; margin-left: 50px; border-radius: 25px;}
 .header-menu-link:hover > .header-menu-nav {display: block;	position: absolute;width: 200px;height: auto !important;z-index: 555;opacity: 1;transition: .4s all ease;-moz-transition: .4s all ease;-o-transition: .4s all ease;	-webkit-transition: .4s all ease;}
 .header-menu-nav-link:hover > .header-menu-nav-nav {display: block;	position: absolute;	width: 200px;height: auto !important;z-index: 555;opacity: 1;transition: .4s all ease;-moz-transition: .4s all ease;-o-transition: .4s all ease;-webkit-transition: .4s all ease;}
 .header-menu-link:hover > .header-menu-nav > span {	display: block;	margin-left: -40px !important;width: 200px;background-color: rgba(0,0,0, .135) !important;word-wrap: nowrap;border-bottom: 1px solid rgba(0,0,0, .375);color: snow !important;transition: .2s all ease;	-moz-transition: .2s all ease;-o-transition: .2s all ease;-webkit-transition: .2s all ease;}
@@ -306,6 +306,7 @@ address > div > p, address > div > p > span { color: rgba(0,0,0, .95) !important
 @media screen and (max-width: 768px) {
 	.header-subtitle > span > span {}
 	.img-height {height: 100px !important;}
+	.header-menu-link {margin-left: 0;}
 }
 @media screen and (max-width: 767px) {
 	.header-title h1 { font-size: 28px;	transition: .2s; -o-transition: .2s; -webkit-transition: .2s; -moz-transition: .2s;	}
