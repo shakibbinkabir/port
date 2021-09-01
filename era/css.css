@@ -1,0 +1,75 @@
+@import url("incompleeta/stylesheet.css")
+
+html{
+    margin-top: 150px;
+}
+.container{
+}
+ 
+.our-team{
+    padding: 20px 15px 30px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+   border-top: 1px solid rgba(255,255,255,0.2);
+   border-left: 1px solid rgba(255,255,255,0.2);
+   backdrop-filter: blur(15px);
+   box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+.our-team .pic{
+    display: inline-block;
+    width: 75%;
+    height: 75%;
+    padding: 10px;
+    margin-bottom: 25px;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .pic{
+    background: #17bebb;
+    border-radius: 50%;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.our-team .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 0 7px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #dedede;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+.title h1{
+    color: #fff;
+    font-family: "incompleeta";
+    font-size: 50px;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+    .title h1 {font-size: 30px; }
+}
+@media only screen and (max-width: 500px){
+    .title h1 {font-size: 25px; }
+}
+@media only screen and (max-width: 400px){
+    .title h1 {font-size: 20px; }
+}

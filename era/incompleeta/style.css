@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Incompleeta';
+    src: local('Incompleeta Regular'), local('Incompleeta-Regular'),
+        url('IncompleetaRegular.woff2') format('woff2'),
+        url('IncompleetaRegular.woff') format('woff'),
+        url('IncompleetaRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
